@@ -1,7 +1,7 @@
 SPIED-viz
 =========
 
-Stanford Pattern-based Information Extraction and Diagnostics -- Visualization
+Stanford Pattern-based Information Extraction and Diagnostics -- Visualization. The code is for visualizing output of pattern-based entity learning systems. See http://nlp.stanford.edu/software/patternslearning.shtml for one such system.
 
 CITATION
 
