@@ -191,20 +191,20 @@ function makelist(wordScores, thisListEntities, otherListEntities, falseWords, t
                 hoverStr+="Not Extracted";
                 if(trueoracle){
                     var badgeEl = document.createElement('img')
-                    badgeEl.setAttribute('src','img/badge.png')
+                    badgeEl.setAttribute('src','../img/badge.png')
                     badgeEl.setAttribute('width','15px');
                     badgeEl.setAttribute('style','padding:10px;');
                     listItemHeader.appendChild(badgeEl);
                 }
                 else if(falseoracle){
                     var badgeEl = document.createElement('img')
-                    badgeEl.setAttribute('src','img/cross.png')
+                    badgeEl.setAttribute('src','../img/cross.png')
                     badgeEl.setAttribute('width','15px');
                     badgeEl.setAttribute('style','padding:10px;');
                     listItemHeader.appendChild(badgeEl);
                 } else{
                     var badgeEl = document.createElement('img')
-                    badgeEl.setAttribute('src','img/star.png')
+                    badgeEl.setAttribute('src','../img/star.png')
                     badgeEl.setAttribute('width','10px');
                     badgeEl.setAttribute('style','padding:10px;');
                     listItemHeader.appendChild(badgeEl);

@@ -45,7 +45,10 @@ for opt, arg in opts:
    elif opt in ("--labeledfiles"):
         labeledfiles = arg.split(',');
 
-
+outfilelabels = "pied/js/currentViz/labels.js";
+with open (outfilelabels,"w") as f:
+    f.write("var labels=['"+("','".join(labels))+"'];");
+    
 for index, label in enumerate(labels):
     
     if(len(labeledfiles) == 0):
@@ -55,10 +58,10 @@ for index, label in enumerate(labels):
         labeledfile = labeledfiles[index];    
     
     
-    outindexfile="pied/index_"+label+".html";
-    outpatternfile="pied/patterns_"+label+".html";
+    outindexfile="pied/labelhtmlfiles/index_"+label+".html";
+    outpatternfile="pied/labelhtmlfiles/patterns_"+label+".html";
     outfilename="pied/js/currentViz/data_"+label+".js"
-
+    
     if(len(sys1name) == 0):
         head, tail = ntpath.split(sys1dir)
         sys1name = tail or ntpath.basename(head);
@@ -121,11 +124,13 @@ for index, label in enumerate(labels):
         f.write(labeledstr+"\n");
 
 
-    str1 = "<html>\n<head>\n <script src='js/currentViz/data_"+label+".js'></script>\n<script src='js/util.js'></script>\n<script type='text/javascript' src='js/jquery-1.9.1.js'></script>\n<script type='text/javascript' src='js/jquery-ui.js'></script>";
-    str2 = "<script type='text/javascript' src='js/jquery.sticky.js'></script>\n<script type='text/javascript' src='js/rainbowvis.js'></script>\n<link rel='stylesheet' href='js/jquery-ui.css'>";
-    str3= "<link rel='stylesheet' href='js/pied.css'>\n<script src='js/commonjsfunctions.js'></script>\n</head>\n";
-    strbodyentity = "<body>\n<script type='text/javascript' src='js/accgen.js'></script>\n</body>\n</html>";
-    strbodypatterns = "<body>\n<script type='text/javascript' src='js/accordion-lists.js'></script>\n</body>\n</html>";
+        
+
+    str1 = "<html>\n<head>\n <script src='../js/currentViz/data_"+label+".js'></script>\n<script src='../js/util.js'></script>\n<script type='text/javascript' src='../js/jquery-1.9.1.js'></script>\n<script type='text/javascript' src='../js/jquery-ui.js'></script>";
+    str2 = "<script type='text/javascript' src='../js/jquery.sticky.js'></script>\n<link rel='stylesheet' href='../js/jquery-ui.css'>";
+    str3= "<link rel='stylesheet' href='../js/pied.css'>\n<script src='../js/commonjsfunctions.js'></script>\n</head>\n";
+    strbodyentity = "<body>\n<script type='text/javascript' src='../js/accgen.js'></script>\n</body>\n</html>";
+    strbodypatterns = "<body>\n<script type='text/javascript' src='../js/accordion-lists.js'></script>\n</body>\n</html>";
 
     with open(outindexfile,"w") as f:
         f.write(str1+"\n"+str2+"\n"+str3+"\n"+strbodyentity);

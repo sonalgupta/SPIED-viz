@@ -292,13 +292,13 @@ function createPatternListItem(parentElement, pat, id, patScores, posWordsForPat
 	listItem.appendChild(patnode);
 	if(numUnlabLabeled > 0 && ratioCorrectUnlab < 0.50){
 		var redEl = document.createElement('img')
-		redEl.setAttribute('src','img/redexcl.png')
+		redEl.setAttribute('src','../img/redexcl.png')
 		redEl.setAttribute('width','10px');
 		redEl.setAttribute('style','padding:2px;');
 		listItem.appendChild(redEl);
 	} else if(ratioCorrectUnlab > 0.90){
         var redEl = document.createElement('img')
-		redEl.setAttribute('src','img/tick.png')
+		redEl.setAttribute('src','../img/tick.png')
 		redEl.setAttribute('width','10px');
 		redEl.setAttribute('style','padding:2px;');
 		listItem.appendChild(redEl);
