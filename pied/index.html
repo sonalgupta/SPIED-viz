@@ -1,0 +1,70 @@
+<html>
+    <head>
+    <link rel='stylesheet' href='js/pied.css'>
+    <script type='text/javascript' src='js/jquery-1.9.1.js'></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/currentViz/labels.js"></script>
+    
+    
+    <script>
+        
+    function createSelectBox(){
+        var s = document.createElement("select");
+        s.setAttribute("name","options");
+        s.setAttribute("id","options");
+        for(var i=0;i< labels.length;i++){
+            var o = document.createElement("option");
+            o.setAttribute("value","index_"+labels[i]+".html");
+            o.innerHTML=labels[i];
+            if(i == 0){
+                o.setAttribute("selected","");
+            }
+            s.appendChild(o);
+        }
+        document.getElementsByTagName('body')[0].appendChild(s);
+        s.addEventListener('change', function() {changeIFrame(this.id);}, true);
+        changeIFrame(s.id);
+    }
+    function changeIFrame(id){
+        var s = document.getElementById(id);
+        option = s.options[s.selectedIndex];        
+        document.getElementById('labelframe').src = option.value;
+        }
+
+    
+    </script>
+
+
+    </head>
+<body onload="createSelectBox()">
+
+<div class="overlay" id="overlay" style="display:none;"></div>
+<div class="box" id="box">
+<a class="boxclose" id="boxclose"></a>
+<h2>Symbol and Color Definitions</h2>
+<p>
+<font color="red">Red Phrase</font>: Incorrect entity<br>
+<font color="green">Green Phrase</font>: Correct entity<br>
+Default Color Phrase: Label not provided<br>
+<img src="img/badge.png" width="15px">: Correct phrase not extracted by the other system (when comparing two systems)<br>
+<img src="img/cross.png" width="15px">: Incorrect phrase not extracted by the other system (when comparing two systems)<br>
+<br>
+<font color="blue">Blue Pattern</font>: Pattern is not extracted by the other system (when comparing two systems).<br>
+<img src="img/redexcl.png" width="15px">: The pattern extracted less than 50% correct entities.<br>
+</p>
+</div>
+
+<div  style="position:absolute;left:700px;top:5px">
+<a href="patterns.html" style="text-decoration:none;color:#333333">Pattern-centric view</a> &nbsp;
+<a href="#" id="help" style="text-decoration:none;color:#CC3300">Help</a>
+</div>
+
+<br>
+<iframe name="iframe" id="labelframe" src=""  style="overflow:hidden; position: absolute; height: 100%; width:100%;top:50px"  seamless></iframe>
+<script src="js/commonjsfunctions.js"></script>
+
+</body>
+
+
+</html>
