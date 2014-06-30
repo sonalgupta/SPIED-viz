@@ -1,5 +1,6 @@
 SPIED-viz
 =========
+***** WE ARE IN THE PROCESS OF RELEASING THE FULL CODE. PLEASE CHECK IN 1-2 DAYS***
 
 Stanford Pattern-based Information Extraction and Diagnostics -- Visualization. The code is for visualizing output of pattern-based entity learning systems. See http://nlp.stanford.edu/software/patternslearning.shtml for one such system.
 
