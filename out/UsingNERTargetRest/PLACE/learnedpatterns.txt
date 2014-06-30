@@ -1,0 +1,43 @@
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.375
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.3333333333333333
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.5
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.375
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.3333333333333333
+[{lemma:/\Qgovernor\E/}] [{lemma:/\Qof\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.25
+[{lemma:/\Qpolitics\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.5
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.5
+[{lemma:/\Qin\E/}] [{PLACE:PLACE}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.375
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{PLACE:PLACE}]	0.5
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.3333333333333333
+[{lemma:/\Qgovernor\E/}] [{lemma:/\Qof\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.25
+[{NAME:NAME}] [{lemma:/\Qof\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qcentral\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qwest\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qpolitics\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.5
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.5
+[{PLACE:PLACE}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.6
+[{lemma:/\Qin\E/}] [{PLACE:PLACE}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.375
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{PLACE:PLACE}]	0.5
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.3333333333333333
+[{lemma:/\Qgovernor\E/}] [{lemma:/\Qof\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.25
+[{NAME:NAME}] [{lemma:/\Qof\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qamerica\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.5
+[{lemma:/\Qcentral\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qwest\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qpolitics\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.5
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.5
+[{PLACE:PLACE}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.6
+[{lemma:/\Qin\E/}] [{PLACE:PLACE}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.375
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{PLACE:PLACE}]	0.5
+[{lemma:/\Qsouth\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.2
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.3333333333333333
+[{lemma:/\Qgovernor\E/}] [{lemma:/\Qof\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.25
+[{NAME:NAME}] [{lemma:/\Qof\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qamerica\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.5
+[{lemma:/\Qcentral\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qwest\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.3333333333333333
+[{lemma:/\Qpolitics\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	0.5
+[{lemma:/\Qbear\E/}] [{lemma:/\Qin\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{lemma:/\Q,\E/}] [{lemma:/\Qmassachusetts\E/}]	0.5

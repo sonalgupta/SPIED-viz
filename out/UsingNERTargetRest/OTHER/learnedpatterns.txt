@@ -1,0 +1,23 @@
+[{lemma:/\Qdaughter\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qwife\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qmarry\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.125
+[{lemma:/\Qchild\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qdaughter\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{OTHER:OTHER}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.6
+[{lemma:/\Qwife\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qmarry\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.125
+[{lemma:/\Qchild\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qdaughter\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{OTHER:OTHER}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.6
+[{lemma:/\Qwife\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qmarry\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.125
+[{lemma:/\Qchild\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qdaughter\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{OTHER:OTHER}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.6
+[{lemma:/\Qwife\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qmarry\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.125
+[{lemma:/\Qchild\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qdaughter\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{OTHER:OTHER}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.6
+[{lemma:/\Qwife\E/}] [{lemma:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.5
+[{lemma:/\Qmarry\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.125

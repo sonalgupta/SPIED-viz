@@ -1,0 +1,29 @@
+[{lemma:/\Qgovernor\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qpresident\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.0625
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qbe\E/}] [{lemma:/\Qbear\E/}]	0.2
+[{lemma:/\Qgovernor\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qpresident\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.0625
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qbe\E/}] [{lemma:/\Qbear\E/}]	0.2
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qjr.\E/}]	0.5
+[{lemma:/\Qgovernor\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qpresident\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.0625
+[{lemma:/\Qleader\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.3333333333333333
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qbe\E/}] [{lemma:/\Qbear\E/}]	0.2
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qset\E/}]	0.3333333333333333
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qjr.\E/}]	0.5
+[{lemma:/\Qsenator\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qgovernor\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qpresident\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.0625
+[{lemma:/\Qleader\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.3333333333333333
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qbe\E/}] [{lemma:/\Qbear\E/}]	0.2
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qtake\E/}]	0.3333333333333333
+[{NAME:NAME}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.9444444444444444
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qset\E/}]	0.3333333333333333
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qjr.\E/}]	0.5
+[{lemma:/\Qsenator\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qgovernor\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.25
+[{lemma:/\Qpresident\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.0625
+[{lemma:/\Qleader\E/}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.3333333333333333
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qbe\E/}] [{lemma:/\Qbear\E/}]	0.2
+(?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3}) [{lemma:/\Qtake\E/}]	0.3333333333333333
+[{NAME:NAME}]  (?$term [{tag:/NN.*/} & {ner:PERSON}]{1,3})	0.9444444444444444
