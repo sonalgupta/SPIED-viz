@@ -1,0 +1,1 @@
+var labels=['NAME','PLACE'];
