@@ -1,6 +1,6 @@
 #Run first system with NER restriction on the target phrase
 printf "\n\nRUNNING THE FIRST SYSTEM\n\n"
-Java -cp $CLASSPATH:lib/* edu.stanford.nlp.patterns.surface.GetPatternsFromDataMultiClass -props properties/example.properties -identifier UsingNERTargetRest                 -useTargetNERRestriction true
+java -cp $CLASSPATH:lib/* edu.stanford.nlp.patterns.surface.GetPatternsFromDataMultiClass -props properties/example.properties -identifier UsingNERTargetRest                 -useTargetNERRestriction true
 
 #Run second system without using the NER restriction
 printf "\n\nRUNNING THE SECOND SYSTEM\n\n"
