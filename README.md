@@ -6,8 +6,8 @@ Stanford Pattern-based Information Extraction and Diagnostics -- Visualization. 
 DOCUMENTATION
 
 CONFIGURATION and INSTALLATION:
-Input to visualization: The easiest way is to run our pattern/entity learning code and then run this. 
-**see demo.sh for an example.**
+Input to visualization: The easiest way is to run Stanford CoreNLP's pattern/entity learning code and then run this visualization. 
+**see setupWithCoreNLP.sh and demo.sh for an example. First run setupWithCoreNLP.sh and then demo.sh**
     
     If you want to use some other entity learning system:
     
