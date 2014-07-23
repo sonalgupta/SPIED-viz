@@ -1,3 +1,5 @@
+#**** Make sure you have Stanford CoreNLP jar files in lib. See setupWithCoreNLP.sh for setting up.*****
+
 #Run first system with NER restriction on the target phrase
 printf "\n\nRUNNING THE FIRST SYSTEM\n\n"
 java -cp $CLASSPATH:lib/* edu.stanford.nlp.patterns.surface.GetPatternsFromDataMultiClass -props properties/example.properties -identifier UsingNERTargetRest -useTargetNERRestriction true
